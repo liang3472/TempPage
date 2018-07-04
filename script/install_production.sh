@@ -1,0 +1,1 @@
+#sed -i -e "s/\.\//\/\/shadow.elemecdn.com\/faas\/worldcup\//g" index.html

@@ -1,0 +1,24 @@
+/*px2rem*/
+
+*:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+  
+a, img, button, div {
+    -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+    -webkit-tap-highlight-color: transparent;
+}
+  
+html, body {
+    -webkit-user-select: none; /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    font: 400 1em/1.5 PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+    user-select: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
